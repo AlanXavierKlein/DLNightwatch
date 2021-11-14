@@ -1,6 +1,6 @@
 module.exports = {
 
-    "Get URL and title" : function(browser) {
+    "Envio de formulario" : function(browser) {
         browser
         .url("https://decemberlabs.com/")
         .click('a[class=btn_mobile]')
