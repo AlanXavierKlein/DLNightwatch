@@ -2,7 +2,17 @@
 Nightwatch automation project
 
 Explicacion:
-Se corre un solo test llamado "Envio de formulario" donde se realizan las validaciones solicitadas en la consigna.
+Se corre un solo test llamado "Envio de formulario" donde se realizan las validaciones solicitadas:
+
+- Completar y enviar formulario de ‘Join our team’
+○ Ingresar a la web de December Labs
+○ Ingresar a la sección ‘Careers’ y validar que la sección se despliegue
+correctamente
+○ Ingresar el formulario de ‘Join our team’ desde cualquier botón de ‘Apply now’
+■ Dentro del formulario completar los diferentes campos con datos a
+elección, a no ser el email, en el cual se debe ingresar
+"test@decemberlabs.com"
+■ Enviar el formulario y validar que el mismo se envió de forma exitosa.
 
 Mejoras:
 Es la primera vez que tengo contacto con Nightwatch y test en javascript, no se aplica ningun patro de diseño. Podria aplicarse Page Objet Model, siendo esté es más usado.
