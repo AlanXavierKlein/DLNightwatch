@@ -19,13 +19,14 @@ Se pueden mejorar los locators (en una linea utilizo el cssSelector que genera c
 1) Clonar el proyecto
 2) En caso de no tener instalado Node.js, instalarlo
 3) En la carpeta del proyecto ejecutar *npm init*
-4) Se le pedirá que rellene los detalles del proyecto. Puede rellenarlos o dejarlos en blanco a partir de ahora:
-    *package name: (project)
-    *version: (1.0.0)
-    *git repository: (https://github.com/AlanXavierKlein/DLNightwatch.git)
-    *author:
-    *license: (ISC)
-    *About to write to {direccion local}:
+4) Se le pedirá que rellene los detalles del proyecto, solo dar ENTER:
+    * package name: (project)
+    * version: (1.0.0)
+    * git repository: (https://github.com/AlanXavierKlein/DLNightwatch.git)
+    * author:
+    * license: (ISC)
+    * About to write to {direccion local}:
+    * Se preguntara _Is this OK (yes)_ poner *y* Enter
 5) Ejecutar --> *npm install --save-dev nightwatch*
 6) Ejecutar --> *npm install --save-dev chromedriver*
 
