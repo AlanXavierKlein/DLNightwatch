@@ -1,36 +1,32 @@
 # DLNightwatch
-Nightwatch automation project
 
-Explicacion:
-Se corre un solo test llamado "Envio de formulario" donde se realizan las validaciones solicitadas:
+## Nightwatch automation project
 
-- Completar y enviar formulario de ‘Join our team’
-○ Ingresar a la web de December Labs
-○ Ingresar a la sección ‘Careers’ y validar que la sección se despliegue
-correctamente
-○ Ingresar el formulario de ‘Join our team’ desde cualquier botón de ‘Apply now’
-■ Dentro del formulario completar los diferentes campos con datos a
-elección, a no ser el email, en el cual se debe ingresar
-"test@decemberlabs.com"
-■ Enviar el formulario y validar que el mismo se envió de forma exitosa.
+_Explicacion: Se corre un solo test llamado "Envio de formulario" donde se realizan las validaciones solicitadas:_
 
-Mejoras:
-Es la primera vez que tengo contacto con Nightwatch y test en javascript, no se aplica ningun patro de diseño. Podria aplicarse Page Objet Model, siendo esté es más usado.
-Se pueden mejorar los locators (en una linea utilizo el cssSelector que genera chrome)
+### Completar y enviar formulario de ‘Join our team’ siguiendo los siguientes pasos
+1) Ingresar a la web de December Labs
+2) Ingresar a la sección ‘Careers’ y validar que la sección se despliegue correctamente
+3) Ingresar el formulario de ‘Join our team’ desde cualquier botón de ‘Apply now’
+    * Dentro del formulario completar los diferentes campos con datos a elección, a no ser el email, en el cual se debe ingresar "test@decemberlabs.com"
+    * Enviar el formulario y validar que el mismo se envió de forma exitosa.
 
-Para Ejecutar el test: (tener instalado node)
-1- Clonar el proyecto
-2-En la carpeta del proyecto ejecutar
---> npm init
-Se le pedirá que rellene los detalles del proyecto. Puede rellenarlos o dejarlos en blanco a partir de ahora:
-    package name: (project)
-    version: (1.0.0)
-    git repository: (https://github.com/AlanXavierKlein/DLNightwatch.git)
-    author:
-    license: (ISC)
-    About to write to C:\Users\alank\Documents\Klei\Nueva carpeta\DLNightwatch\package.json:
+### Mejoras:
+_Es la primera vez que tengo contacto con Nightwatch y test en javascript, no se aplica ningun patro de diseño. Podria aplicarse Page Objet Model, siendo esté el más usado.
+Se pueden mejorar los locators (en una linea utilizo el cssSelector que genera chrome lo cual no es lo mejor)_
 
---> npm install --save-dev nightwatch
---> npm install --save-dev chromedriver
+### Pasos para Ejecutar el test: (tener instalado node)
+1) Clonar el proyecto
+2) En caso de no tener instalado Node.js, instalarlo
+3) En la carpeta del proyecto ejecutar *npm init*
+4) Se le pedirá que rellene los detalles del proyecto. Puede rellenarlos o dejarlos en blanco a partir de ahora:
+    *package name: (project)
+    *version: (1.0.0)
+    *git repository: (https://github.com/AlanXavierKlein/DLNightwatch.git)
+    *author:
+    *license: (ISC)
+    *About to write to {direccion local}:
+5) Ejecutar --> *npm install --save-dev nightwatch*
+6) Ejecutar --> *npm install --save-dev chromedriver*
 
-Una vez instalado todo ejecutar > npm test  para correr el test
+7) Una vez instalado todo ejecutar --> *npm test*  para correr el test
