@@ -26,7 +26,7 @@ Se pueden mejorar los locators (en una linea utilizo el cssSelector que genera c
     * author:
     * license: (ISC)
     * About to write to {direccion local}:
-    * Se preguntara _Is this OK (yes)_ poner *y* Enter
+    * Se preguntara _Is this OK (yes)_ poner **y** y dar Enter
 5) Ejecutar --> *npm install --save-dev nightwatch*
 6) Ejecutar --> *npm install --save-dev chromedriver*
 
